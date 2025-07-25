@@ -1,3 +1,7 @@
+// server.js
+// This file sets up an Express server with cookie handling and routes for users and posts.
+// It includes functionality for reading and verifying cookies, as well as handling signed cookies.
+
 const express = require("express");
 const app = express();
 const users = require("./routes/user.js");
